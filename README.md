@@ -1,2 +1,2 @@
 # mycv
-nguyễn thị yến 
+nguyễn thị yến git config --global user.name "Ten Cua Ban"
