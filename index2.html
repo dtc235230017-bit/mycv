@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nguyễn Thị Yến</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="cv-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="avatar.jpg" alt="Avatar" class="avatar" onerror="this.style.display='none'">
+                <h1>Nguyễn Thị Yến</h1>
+                <span class="badge">Fullstack Developer</span>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Liên hệ</h3>
+                <ul class="contact-list">
+                    <li><span class="icon">📧</span> yen.nguyen@email.com</li>
+                    <li><span class="icon">📱</span> 090-xxx-xxxx</li>
+                    <li><span class="icon">📍</span> Thái Nguyên</li>
+                    <li><span class="icon">🔗</span> github.com/yennguyen</li>
+                    <li><span class="icon">💼</span> linkedin.com/in/yennguyen</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Kỹ năng chính</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <span class="skill-name">React / Next.js</span>
+                        <div class="bar"><div class="fill" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">TypeScript</span>
+                        <div class="bar"><div class="fill" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Node.js / NestJS</span>
+                        <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">PostgreSQL / MongoDB</span>
+                        <div class="bar"><div class="fill" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Docker / AWS</span>
+                        <div class="bar"><div class="fill" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Testing (Jest, Cypress)</span>
+                        <div class="bar"><div class="fill" style="width: 70%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Ngôn ngữ</h3>
+                <ul class="lang-list">
+                    <li><span>Tiếng Việt</span> <span class="level">Native</span></li>
+                    <li><span>日本語</span> <span class="level">N3</span></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Sở thích</h3>
+                <div class="interests">
+                    <span>📚 Đọc sách</span>
+                    <span>☕ Coffee</span>
+                    <span>🏃 Running</span>
+                    <span>🎮 Gaming</span>
+                    <span>✈️ Travel</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="section">
+                <header class="section-header">
+                    <span class="section-icon">👤</span>
+                    <h2>Giới thiệu</h2>
+                </header>
+                <p class="intro-text">
+                    Lập trình viên Fullstack với <strong>3+ năm kinh nghiệm</strong> xây dựng ứng dụng web quy mô lớn.
+                    Chuyên môn mạnh về <strong>React ecosystem</strong> (Next.js, Remix), <strong>TypeScript</strong> và kiến trúc <strong>microservices</strong>.
+                    Có tư duy product-oriented, thích giải quyết bài toán phức tạp và tối ưu trải nghiệm developer (DX).
+                </p>
+            </section>
+
+            <section class="section">
+                <header class="section-header">
+                    <span class="section-icon">💼</span>
+                    <h2>Kinh nghiệm làm việc</h2>
+                </header>
+
+                <article class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Fullstack Developer</h3>
+                                <span class="timeline-date">03/2022 – Nay</span>
+                            </div>
+                            <p class="timeline-company">ABC Technology • TP.HCM</p>
+                            <ul class="achievements">
+                                <li>Kiến trúc lại hệ thống legacy sang microservices: giảm 60% latency API</li>
+                                <li>Xây dựng design system nội bộ (React + Storybook): 50+ components, dùng cho 5 team</li>
+                                <li>Dẫn dắt team 5 devs: sprint planning, code review, mentor junior</li>
+                                <li>Thiết lập CI/CD, monitoring (Datadog), feature flags (LaunchDarkly)</li>
+                                <li>Tech stack: Next.js, NestJS, PostgreSQL, Redis, Kafka, Docker, K8s, AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Frontend Developer</h3>
+                                <span class="timeline-date">06/2020 – 02/2022</span>
+                            </div>
+                            <p class="timeline-company">Startup XYZ • TP.HCM (Remote)</p>
+                            <ul class="achievements">
+                                <li>Xây dựng MVP từ 0 → 10k users trong 6 tháng</li>
+                                <li>Migration codebase JS → TypeScript, setup ESLint/Prettier/Husky</li>
+                                <li>Tối ưu bundle size: -35% qua code splitting & tree shaking</li>
+                                <li>Hợp tác chặt chẽ với designer: Figma → React components pixel-perfect</li>
+                                <li>Tech stack: React, TypeScript, Tailwind, Node.js, MongoDB, Vercel</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Junior Frontend Developer (Intern)</h3>
+                                <span class="timeline-date">01/2020 – 05/2020</span>
+                            </div>
+                            <p class="timeline-company">Digital Agency • TP.HCM</p>
+                            <ul class="achievements">
+                                <li>Phát triển landing pages, admin dashboards cho khách hàng</li>
+                                <li>Học hỏi React, Redux, REST API, Git workflow thực tế</li>
+                                <li>Đạt "Best Intern Award" quý 1/2020</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="section">
+                <header class="section-header">
+                    <span class="section-icon">🏆</span>
+                    <h2>Dự án nổi bật</h2>
+                </header>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-tag">Fullstack</span>
+                            <a href="#" class="project-link" target="_blank">🔗</a>
+                        </div>
+                        <h3>E-commerce Platform</h3>
+                        <p>Hệ thống TMĐT full-feature: giỏ hàng, thanh toán VNPAY/Momo, voucher, quản lý đơn hàng, dashboard admin realtime.</p>
+                        <div class="project-tech">
+                            <span>Next.js 14</span>
+                            <span>NestJS</span>
+                            <span>PostgreSQL</span>
+                            <span>Prisma</span>
+                            <span>Docker</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-tag">Real-time</span>
+                            <a href="#" class="project-link" target="_blank">🔗</a>
+                        </div>
+                        <h3>Team Collaboration Tool</h3>
+                        <p>App quản lý dự án kiểu Notion/Linear: kanban board, realtime sync, comments, notifications, file attachment.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Socket.io</span>
+                            <span>MongoDB</span>
+                            <span>Redis</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-tag">Open Source</span>
+                            <a href="#" class="project-link" target="_blank">🔗</a>
+                        </div>
+                        <h3>UI Component Library</h3>
+                        <p>Thư viện components accessible, themeable: 40+ components, dark mode, RTL support, published on npm.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Storybook</span>
+                            <span>Vitest</span>
+                            <span>Rollup</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <header class="section-header">
+                    <span class="section-icon">🎓</span>
+                    <h2>Giáo dục & Chứng chỉ</h2>
+                </header>
+
+                <div class="education-grid">
+                    <div class="edu-card">
+                        <div class="edu-icon">🎓</div>
+                        <div>
+                            <h3>Cử nhân Khoa học Máy tính</h3>
+                            <p class="edu-school">Đại học Bách Khoa TP.HCM</p>
+                            <p class="edu-date">2016 – 2020 • GPA: 3.6/4.0</p>
+                        </div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-icon">☁️</div>
+                        <div>
+                            <h3>AWS Certified Solutions Architect</h3>
+                            <p class="edu-school">Amazon Web Services</p>
+                            <p class="edu-date">2023 • Credential ID: ABC123</p>
+                        </div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-icon">📜</div>
+                        <div>
+                            <h3>Professional Scrum Master I (PSM I)</h3>
+                            <p class="edu-school">Scrum.org</p>
+                            <p class="edu-date">2022</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Nguyễn Thị Yến — Template 2: Sidebar Layout</p>
+    </footer>
+</body>
+</html>
